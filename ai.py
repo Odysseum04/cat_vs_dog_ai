@@ -34,20 +34,20 @@ num_classes = 2
 epochs = 1
 
 # Répertoire contenant le modèle
-model_dir = "C:/Users/cleme/OneDrive - student.helmo.be/AI"
+model_dir = "YOUR_PATH"
 model_path = os.path.join(model_dir, "chat_vs_chien_model.h5")
 
 # Préparation des données d'entraînement
 train_datagen = ImageDataGenerator(rescale=1./255)
 val_datagen = ImageDataGenerator(rescale=1./255)
 train_generator = train_datagen.flow_from_directory(
-    directory=r"C:\Users\cleme\OneDrive - student.helmo.be\AI\train",
+    directory=r"YOUR_PATH\train",
     target_size=(224,224),
     batch_size=batch_size,
     class_mode="categorical")
 
 val_generator = val_datagen.flow_from_directory(
-    directory=r"C:\Users\cleme\OneDrive - student.helmo.be\AI\validation",
+    directory=r"YOUR_PATH\validation",
     target_size=(224,224),
     batch_size=batch_size,
     class_mode="categorical")
@@ -93,7 +93,7 @@ else:
 # Préparation des données de test
 test_datagen = ImageDataGenerator(rescale=1./255)
 test_generator = test_datagen.flow_from_directory(
-    directory=r"C:\Users\cleme\OneDrive - student.helmo.be\AI\test",
+    directory=r"YOUR_PATH\test",
     target_size=(224,224),
     batch_size=batch_size,
     class_mode="binary")
