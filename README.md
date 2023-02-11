@@ -1,5 +1,5 @@
 # cat_vs_dog_ai
-Une IA pour reconnaitre si la photo montre un chat ou un chien
+Une IA pour reconnaitre si une photo montre un chat ou un chien
 
 
 Comment démarrer:
