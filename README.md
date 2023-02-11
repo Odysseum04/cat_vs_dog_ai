@@ -15,4 +15,6 @@ Le modèle "cats_vs_dogs.h5" est optionnel mais conseillé, il s'agit d'un modè
 A chaque session le modèle entrainé reçoit une séance d'entrainement (2-3 minutes).
 
 Lien du modèle pré-entrainé: https://studenthelmobe-my.sharepoint.com/:u:/g/personal/c_raes_student_helmo_be/EYhGaWYufaNKp-iwQiII3KIBwRnCDIUbwMBVeP2lxgwYsQ?e=tnuK7u
-Il faut placer ce fichier dans le répertoire d'origine de l'IA (que vous avez choisi)
+Il faut placer ce fichier dans le répertoire d'origine de l'IA (que vous avez choisi).
+
+IA créée à l'aide de OpenAI - ChatGPT
