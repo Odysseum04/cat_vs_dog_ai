@@ -8,3 +8,6 @@ Comment démarrer:
   
   
 Le modèle "cats_vs_dogs.h5" est optionnel mais conseillé, il s'agit d'un modèle pré-entrainé des centaines de fois. Si vous n'utilisez pas ce modèle, un nouveau sera créé et il recevra 1 session d'entrainement à chaque lancement de l'application.
+
+Lien du modèle pré-entrainé: https://studenthelmobe-my.sharepoint.com/:u:/g/personal/c_raes_student_helmo_be/EYhGaWYufaNKp-iwQiII3KIBwRnCDIUbwMBVeP2lxgwYsQ?e=tnuK7u
+Il faut placer ce fichier dans le répertoire d'origine de l'IA (que vous avez choisi)
